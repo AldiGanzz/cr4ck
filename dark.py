@@ -97,7 +97,6 @@ $$$$$$$ |$$ | $$ |$$ | $$ |$$ | \$$\
 \033[1;95m{\033[1;96m×\033[1;95m} \033[1;93mEditor   \033[1;91m: \033[1;96mRamdhan Ramadhian
 \033[1;95m{\033[1;96m×\033[1;95m} \033[1;93mInstagram \033[1;91m: \033[1;96mramdhan.ramadhian99
 \033[1;95m{\033[1;96m×\033[1;95m} \033[1;93mYoutube  \033[1;91m: \033[1;96mTutoriality Studio"""
-\033[1;95m{\033[1;96m×\033[1;95m} \033[1;93mFeatures  \033[1;91m: \033[1;96mCrack FB From 5 Country
 
 back = 0
 threads = []
