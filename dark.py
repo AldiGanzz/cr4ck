@@ -1,6 +1,7 @@
 #!/usr/bin/python2
 # coding=utf-8
 #Created By Rizky Rastafara,Fixed By Ramdhan Ramadhian
+#Do Not Recode Okay !
 import os,sys,time,mechanize,itertools,datetime,random,hashlib,re,threading,json,getpass,urllib,cookielib
 from multiprocessing.pool import ThreadPool
 
@@ -84,18 +85,19 @@ def jalan(z):
 		
 #########LOGO#########
 logo = """ 
-\033[1;97m $$$$$$$\ $$\ $$\       
-$$ __$$\ $$ | $$ |      
-$$ | $$ | $$$$$$\ $$$$$$\ $$ | $$\ $$$$$$\ $$$$$$\ $$ | $$\
-$$ | $$ | \____$$\ $$ __$$\ $$ | $$ |$$ __$$\ $$ __$$\ $$ | $$ |
-$$ | $$ | $$$$$$$ |$$ | \__|$$$$$$ / $$ | \__|$$$$$$$$ |$$$$$$ /
-$$ | $$ |$$ __$$ |$$ | $$ _$$< $$ | $$ ____|$$ _$$<  
-$$$$$$$ |\$$$$$$$ |$$ | $$ | \$$\ $$ | \$$$$$$$\ $$ | \$$\
-\_______/ \_______|\__| \__| \__|\__| \_______|\__| \__|
+\033[1;97m $$$$$$$\ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+$$ __$$\ $$ __$$\ $$ __$$\ $$ | $$ |
+$$ | $$ |$$ / $$ |$$ | $$ |$$ |$$ /
+$$ | $$ |$$$$$$$$ |$$$$$$ |$$$$$ /  
+$$ | $$ |$$ __$$ |$$ __$$< $$ $$<   
+$$ | $$ |$$ | $$ |$$ | $$ |$$ |\$$\  
+$$$$$$$ |$$ | $$ |$$ | $$ |$$ | \$$\
+\_______/ \__| \__|\__| \__|\__| \__|
 \033[1;94m──────────────────────────────────────────────────
 \033[1;95m{\033[1;96m×\033[1;95m} \033[1;93mEditor   \033[1;91m: \033[1;96mRamdhan Ramadhian
 \033[1;95m{\033[1;96m×\033[1;95m} \033[1;93mInstagram \033[1;91m: \033[1;96mramdhan.ramadhian99
 \033[1;95m{\033[1;96m×\033[1;95m} \033[1;93mYoutube  \033[1;91m: \033[1;96mTutoriality Studio"""
+\033[1;95m{\033[1;96m×\033[1;95m} \033[1;93mFeatures  \033[1;91m: \033[1;96mCrack FB From 5 Country
 
 back = 0
 threads = []
@@ -110,8 +112,8 @@ def masuk():
 	os.system('clear')
 	print logo
 	print 50* "\033[1;94m─"
-	print "\033[1;97m{\033[1;92m01\033[1;97m} Login Via Token Facebook"
-	print "\033[1;97m{\033[1;92m02\033[1;97m} Ambil Token Download Token App"
+	print "\033[1;97m{\033[1;92m01\033[1;97m} Login Token Facebook"
+	print "\033[1;97m{\033[1;92m02\033[1;97m} Get Token From Token App"
 	print "\033[1;97m{\033[1;91m00\033[1;97m} Keluar"
 	print 50* "\033[1;94m─"
 	pilih_masuk()
@@ -119,7 +121,7 @@ def masuk():
 def pilih_masuk():
 	msuk = raw_input("\033[1;92m︻デ═一▸Pilih Login? \033[91m:\033[1;92m ")
 	if msuk =="":
-		print"\033[1;97m[\033[1;91m!\033[1;97m] Isi Yg Benar Sayang!"
+		print"\033[1;97m[\033[1;91m!\033[1;97m] Isi Yg Benar Goblok!"
 		pilih_masuk()
 	elif msuk =="1" or msuk =="01":
 		tokenz()
