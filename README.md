@@ -15,3 +15,7 @@ $ git clone https://github.com/Ramdhan7/cr4ck
 $ cd cr4ck
 $ python2 cr4ck.py
 ````
+### 
+````bash
+Thanks For Muhammad Rizky
+````
