@@ -13,5 +13,5 @@ $ git clone https://github.com/Ramdhan7/cr4ck
 ### Run Script :
 ````bash
 $ cd cr4ck
-$ python cr4ck.py
+$ python2 cr4ck.py
 ````
